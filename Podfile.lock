@@ -39,7 +39,11 @@ PODS:
   - DDPageControl (0.1)
   - DZNWebViewController (3.0)
   - EDColor (0.4.0)
-  - FBSnapshotTestCase (1.8.1)
+  - FBSnapshotTestCase (2.0.1):
+    - FBSnapshotTestCase/SwiftSupport (= 2.0.1)
+  - FBSnapshotTestCase/Core (2.0.1)
+  - FBSnapshotTestCase/SwiftSupport (2.0.1):
+    - FBSnapshotTestCase/Core
   - ISO8601DateFormatter (0.7)
   - LatoFont (1.0.0)
   - Masonry (0.5.3)
@@ -74,7 +78,7 @@ SPEC CHECKSUMS:
   DDPageControl: 60c7d350477922b1e67fcf927f7e50eddc7dd207
   DZNWebViewController: 3c63bfa4f8f9ae4da03329d20f10b8b9900c14cc
   EDColor: 89d19a013279a5604d61650721c15f20fefaaf00
-  FBSnapshotTestCase: 3dc3899168747a0319c5278f5b3445c13a6532dd
+  FBSnapshotTestCase: bdb997ab2397495205f11156d4d444606daebd27
   ISO8601DateFormatter: ab926648eebe497f4d167c0fd083992f959f1274
   LatoFont: bcfb0239c339af9aacf4b3061d5268e53e080732
   Masonry: 9f515466afe48632562342a40a1c224071a1a022
